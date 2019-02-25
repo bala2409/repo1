@@ -1,3 +1,5 @@
+#This is a test to check the merge options in issue01 branch with master branch
+
 x=int(input("\nEnter the number: "))
 A=[[0 for i in range(x)]for j in range(x)]
 B=[[0 for i in range(x)]for j in range(x)]
