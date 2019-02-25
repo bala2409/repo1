@@ -16,5 +16,6 @@ for i in range(0,x):
     print(i,A[i])
 print("\n(Z",x,",*)")
 print("*",tuple(range(0,x)))
+print("This will be the actual solution")
 for i in range(0,x):
     print(i,B[i])
