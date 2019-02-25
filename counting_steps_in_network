@@ -32,5 +32,6 @@ def count_steps(current_vertex, destination, steps=0, calling=0):
         return min_steps
 
 print(count_steps(10,1))
+#this will create error in the output
 print(count_steps(1,10))
 print(count_steps(1,2))
