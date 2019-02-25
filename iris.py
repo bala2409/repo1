@@ -2,6 +2,8 @@
 # Download the iris dataset. For the iris data collection, implement an application that determines Euclidean distance, mean, median, total variance, standard deviation,
 # and cosine similarity.
 
+#This is a test to check the merge options in issue01 branch with master branch
+
 import xlrd
 fileloc = "C:/Bals/Study plan/Lectures_Tutorials/DA/Task 2/iris_edited.xlsx"
 wb = xlrd.open_workbook(fileloc)

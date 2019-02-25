@@ -1,3 +1,5 @@
+#This is to check merge between master and issue
+
 import xlrd
 fileloc = "C:/Bals/Study plan/Lectures_Tutorials/DA/Task 1/Weather.xlsx"
 wb = xlrd.open_workbook(fileloc)
