@@ -247,44 +247,6 @@ def cosine_similarity_c_d():
     print("Petal Length(c) and Petal Width(d)  : ",cs)
 cosine_similarity_c_d()
 
-""""
-def cosine_similarity_a_b_c():
-    x = sheet.col_values(0,1)
-    y = sheet.col_values(1,1)
-    z = sheet.col_values(2,1)
-    zz = [((x[i] * y[i] * z[i])) for i in range(150)]
-    nom=(sum(zz))
-####
-    a=[ ((x[i])**2) for i in range(150)]
-    b=[ ((y[i])**2) for i in range(150)]
-    c=[ ((z[i])**2) for i in range(150)]
-    d1=(sum(a))**0.5
-    d2=(sum(b))**0.5
-    d3=(sum(c))**0.5
-    denom=d1*d2*d3
-####
-    cs=nom/denom
-    print("Sepal Length(a) and Sepal width(b) and Petal Length : ",cs)
-cosine_similarity_a_b_c()
-
-def counter():
-    a=sheet.col_values(0,1)
-    b=sorted(a)
-    count = 0
-    i = 0
-    while i <= 150:
-        if b[i]==b[i+1]:
-            count=count+1
-        else:
-            count=1
-    i = i + 1
-    print(count)
-counter()
-"""
-# Data Analysis I - 6. seminar
-# For the iris data collection, for all attributes, specify the frequency of attribute values, their relative and cumulative frequencies.
-# Verify that the probability distribution of all attributes corresponds to the normal distribution (using mean and standard deviation)
-
 a = sheet.col_values(0,1)
 b = sheet.col_values(1,1)
 c = sheet.col_values(2,1)
